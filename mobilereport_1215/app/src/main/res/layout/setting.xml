@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="589dp"
+        android:text="설정"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginBottom="15dp"
+        android:text="계정"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName12"
+        app:layout_constraintStart_toStartOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="13dp"
+        android:text="공지사항"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintStart_toStartOf="@+id/imageButton7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName14" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:text="버전"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName15"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName15"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton7" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="닉네임:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName13"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName14"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="287dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="2dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="현재 버전:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="최신 버전"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName15"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName15"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="11dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="전화번호:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName14"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName12"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName12"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName12" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="주소:"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="25dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName15"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName15"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:srcCompat="@drawable/notice"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

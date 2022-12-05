@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/shopingcart"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="13dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName21"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName21"
+        app:layout_constraintTop_toTopOf="@+id/imageButton12"
+        app:srcCompat="@drawable/search"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName22"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintStart_toEndOf="@+id/imageButton19"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton17"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton19"
+        app:srcCompat="@drawable/bestbook1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="17dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton18"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton13"
+        app:srcCompat="@drawable/bestbook2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="179dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="88dp"
+        android:scaleType="centerInside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/bestbook3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="53dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton13"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName22"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="466dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="살인사건 범인 찾아라."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName21" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName23"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="돌이킬수 없는 약속은?"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton17"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName22" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName24"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="위험에서 구해라"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton18"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
